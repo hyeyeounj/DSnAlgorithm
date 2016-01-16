@@ -1,14 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-
-class Vertex{
-	
-	boolean isVisited;//WHITE-GRAY-BLACK으로 색 구분으로 방문여부 표현 가능
-	Vertex p;
-	int d;
-	Vertex[] adj;
-}
 public class BFS {
 
 	int doBFS(Vertex[] g, Vertex node){
